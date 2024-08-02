@@ -186,7 +186,7 @@ img {
   align-items: flex-start;
   /* justify-content: center; */
 }
-.advantages-list:first-child {
+.advantages-item{
   width: calc((100% - 72px) / 4);
 }
 /* section team */

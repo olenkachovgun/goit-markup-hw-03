@@ -106,18 +106,34 @@ img {
   color: #404bbf;
 }
 /* #endPAGE-HEADER */
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
-.page-footer,
-.hero {
-  background-color: #2e2f42;
-}
-
+/* #hero-section */
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
   width: 100%;
+}
+.hero section {
+  padding-top: 188px 0;
+}
+
+.hero-btn {
+  display: block;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
 }
 .hero-title {
   font-weight: 700;
@@ -126,20 +142,24 @@ img {
   text-align: center;
   color: #fff;
   letter-spacing: 0.02em;
-}
-.hero-btn {
-  background: #4d5ae5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #fff;
-  cursor: pointer;
-  letter-spacing: 0.04em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
+/* #endhero-section */
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.page-footer,
+.hero {
+  background-color: #2e2f42;
+}
+
 /* section advantages */
 .subtitle {
   font-weight: 500;
@@ -147,9 +167,22 @@ img {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.advantages-title {
+  visibility: hidden;
 }
 .text {
   font-weight: 400;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+.advantages-list:first-child {
+  width: calc((100% - 72px) / 4);
 }
 /* section team */
 .team {

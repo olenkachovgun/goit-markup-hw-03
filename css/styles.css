@@ -180,6 +180,9 @@ img {
 .text {
   font-weight: 400;
 }
+.advantages .text {
+  text-align: left;
+}
 .advantages-list {
   display: flex;
   gap: 24px;
